@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-header: #3161e0;
+    --bg-main: #f6f6f6;
+    --bg-footer: #23272a;
+    --text-primary-color: #fff;
+    --text-secondary-color: #3e4144;
+
+    --font-primary: "Heebo", sans-serif;
+}
+
+.debug, *{
+    border: 1px dotted black;
+}
+
+/* #header */
+.container_header{
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+
+.header_bg{
+    background-color: rgb(250 204 21);
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 1rem 0;
+    padding: .2rem;
+   
+}
+
+.content_logo{
+    flex-grow: 2;
+    text-align: start;
+}
+
+.content_list{
+    flex-grow: 4;
+    text-align: center;
+}
+
+.content_login{
+    flex-grow: 2;
+    text-align: end;
+}
+
+/* #main */
+.content{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #container 01 */
+.bg_blue_800{
+    background-color: #00008b;
+}
+
+.bg_pink_500{
+    background-color: rgb(236 72 153);
+    width: 40%;
+    height: 70%;
+    /*margin: 0 auto; porq quando eu coloco a margin;top no filho sofre o pai?*/
+}
+/* container 01, 02, 03 bg blue */
+.bg_blue_400{
+    background-color: #1e90ff;
+    width: 30%;
+    height: 200px;
+}
+/* container 01, 02, 03 bg pink */
+.bg_pink_300{
+    background-color:rgb(249 168 212);
+    width: 15%;
+    height: 200px;
+}
+/* bg container 03 e 04 */
+.bg_gray_400{
+    background-color: #d3d3d3;
+}
+/* container 05 */
+.content_05{
+    height: 450px;
+}
+
+.bg_green_600{
+    background-color: rgb(22 163 74);
+    width: 45%;
+    height: 90%;
+}
+/* container 06 */
+.content_06{
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.bg_neutral_800{
+    background-color: #23272A;
+}
+
+.bg_rose_500{
+    background-color: #f08080;
+    width: 15%;
+    height: 280px;
+}
+
+.bg_teal_400{
+    background-color: #20b2aa;
+    width: 7.5%;
+    height: 280px;
+    border: 2px dotted #fff;
+}
+
+/* footer */
+.footer_section{
+    display: flex;
+    justify-content: center;
+}
+
+.bg_teal_200{
+    background-color: rgb(18, 248, 202);
+    width: 45%;
+    margin-top: 1rem;
+    padding: .4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg_pink_foot{
+    background-color: rgb(249 168 212);
+    padding: .2rem;
+}
