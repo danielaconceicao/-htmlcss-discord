@@ -106,31 +106,63 @@
 .group_discord{
     gap: 5rem;
     background-color: var(--primary-color);
-    .group_img{
-        width: 30%;
-    }
+}
+
+.group_img{
+    width: 30%;
 }
 
 .content_group{
     width: 20%;
-    h2{
-        font-size: 1.7rem;
-        font-weight: 800;
-        width: 200px;
-        padding-top: 5rem;
-    }
-    .group_text{
-        font-weight: 600;
-        color: var(--text-secondary-color);
-        padding: 1.2rem 0;
-        width: 280px;
-        
-    }
+}
+
+.group_title{
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 200px;
+    padding-top: 5rem;
+}
+
+.group_text{
+    font-weight: 600;
+    color: var(--text-secondary-color);
+    padding: 1.2rem 0;
+    width: 280px;
 }
 /* bg container 03 e 04 */
-.bg_gray_400{
-    background-color: #d3d3d3;
+.connect_discord{
+    background-color: var(--bg-main);
+    gap: 5rem;
+    padding: 2rem;
 }
+
+.content_connect{
+    width: 20%;
+}
+
+.connect_img{
+    width: 30%;
+    margin-top: 5rem;
+}
+
+.connect_title{
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 200px;
+}
+
+.connect_text{
+    width: 290px;
+}
+
+
+
+
+
+
+
+
+
 /* container 05 */
 .content_05{
     height: 450px;
