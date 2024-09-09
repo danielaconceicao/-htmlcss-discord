@@ -13,30 +13,32 @@
     --primary-color: #fff;
     --secondary-color: #3e4144;
     --technology-btn: #8EA1E1;
-    --h4-h5: #748BDE;
+    --thirt-color: #748BDE;
 
     --font-primary: "Heebo", sans-serif;
 }
-
-/* .debug{
-    border: 2px solid black;
-} */
-
-
+/* Display: flex for everyone */
 .d-flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/* margin-top for everyone */
 .my-px{
     margin: 3rem 0;
 }
-
+/* max-width for the photos */
 .img_size_full{
     max-width: 100%;
 }
-
+/* discord title */
+.title{
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: 200px;
+    color: var(--bg-footer);
+}
+/* header */
 .container_header{
     background-color: var(--bg-header);
     justify-content: space-evenly;
@@ -55,17 +57,17 @@
         padding: .4rem;
         font-weight: 600;
         cursor: pointer;
+        width: 66px;
     }
 }
-
-
+/* background image container main discord */
 .bg_main{
     background: url("../image/jumbo.png")no-repeat;
     background-size: cover;
     background-position: top bottom;
-    padding: 3.1rem;
+    padding: 2.2rem;
 }
-
+/* container main title, text and button */
 .highlight_main{
     padding: 2rem;
     width: 50%;
@@ -104,86 +106,75 @@
     }
     
 }
-
+/* second section main discord */
 .group_discord{
     gap: 5rem;
     background-color: var(--primary-color);
+    .group_img{
+        width: 30%;
+    }
 }
-
-.group_img{
-    width: 30%;
-}
-
+/* second section main content (width, title and text) */
 .content_group{
     width: 20%;
+    .group_title{
+        padding-top: 5rem;
+    }
+    .group_text{
+        font-weight: 600;
+        color: var(--secondary-color);
+        padding: 1.2rem 0;
+        width: 280px;
+    }
 }
-
-.group_title{
-    font-size: 1.7rem;
-    font-weight: 800;
-    width: 200px;
-    padding-top: 5rem;
-}
-
-.group_text{
-    font-weight: 600;
-    color: var(--text-secondary-color);
-    padding: 1.2rem 0;
-    width: 280px;
-}
-/* bg container 03 e 04 */
+/* third section main discord */
 .connect_discord{
     background-color: var(--bg-main);
     gap: 5rem;
     padding: 2rem;
 }
-
+/* third section content (width, title, text) */
 .content_connect{
     width: 20%;
+    .connect_img{
+        width: 30%;
+        margin-top: 5rem;
+    }
+    .connect_text{
+        width: 290px;
+        padding-top: 1rem;
+        color: var(--bg-footer);
+        font-weight: 500;
+    }    
 }
-
-.connect_img{
-    width: 30%;
-    margin-top: 5rem;
-}
-
-.connect_title{
-    font-size: 1.7rem;
-    font-weight: 800;
-    width: 200px;
-    color: var(--secondary-color);
-}
-
-.connect_text{
-    width: 290px;
-}
-
+/* fifth section main discord */
 .technology_discord{
     flex-direction: column;
+    background-color: var(--bg-main);
+    margin-bottom: 0;
+    padding: 2rem 0;
 }
-
+/* fifth section main content(title and text) */
 .technology_content{
     text-align: center;
+    .technology_title{
+        width: 100%;
+        text-align: center;
+       
+    }
+    .technology_text{
+        width: 600px;
+        color: var(--secondary-color);
+    }
 }
-
-.technology_title{
-    font-size: 1.7rem;
-    font-weight: 800;
-    color: var(--secondary-color);
-}
-
-.technology_text{
-    width: 800px;
-    color: var(--secondary-color);
-}
-
+/* fifth section main content background star */
 .technology_subtitle{
     background-image: url("../image/stars.svg");
     background-repeat: no-repeat;
     background-position: top center;
 }
-
-.btn_tech{
+/* fifth section main button*/
+.btn_technology{
     width: 150px;
     display: block;
     margin: 1rem auto;
@@ -193,82 +184,73 @@
     background-color: var(--technology-btn);
     color: var(--primary-color);
 }
+/* last of the section main discord content(bg-color, title, button, text, icon, logo and list) */
+.talk-to-us{
+    color: var(--primary-color);
+    padding-bottom: 2rem; 
+    background-color: var(--bg-footer);
+    gap: 3rem;
+    .talk-to-us-title{
+        font-size: 1.3rem;
+        color: var(--thirt-color);
+    }
+    .talk-to-us-text{
+        color: var(--primary-color);
+        padding: 1rem 0;
+        span{
+            font-size: .6rem;
+            align-items: start;
+        }
+        .logo_ita{
+            width: 18px;
+        }
+    }
+    .talk-to-us-icon{
+        color: var(--primary-color);
+        i{
+            padding-right: .8rem;
+        }
+    }
+    .talk-to-us-subtitle{
+        color: var(--thirt-color);
+    }
+    .list-big{
+        padding-top: 8rem;
+    }
+}
 
 li{
     list-style: none;
+    cursor: pointer;
 }
-
-.logo_ita{
-    width: 18px;
+/* hr discord */
+.bg_row{
+    width: 60%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid var(--technology-btn);
+    margin: 0 auto;
 }
-
-h4, h5{
-    color: var(--h4-h5);
-}
-
-.talk-to-us{
-    background-color: var(--bg-footer);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* container 05 */
-.content_05{
-    height: 450px;
-}
-
-.bg_green_600{
-    background-color: rgb(22 163 74);
-    width: 45%;
-    height: 90%;
-}
-/* container 06 */
-.content_06{
-    border-bottom: 2px solid #d3d3d3;
-}
-
-.bg_neutral_800{
-    background-color: #23272A;
-}
-
-.bg_rose_500{
-    background-color: #f08080;
-    width: 15%;
-    height: 280px;
-}
-
-.bg_teal_400{
-    background-color: #20b2aa;
-    width: 7.5%;
-    height: 280px;
-    border: 2px dotted #fff;
-}
-
-/* footer */
+/* footer section discord content (logo and button) */
 .footer_section{
+    background-color: var(--bg-footer);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    .footer_logo>img{
+        width: 100px;
+    }
+    .footer_btn{
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: .4rem;
+        background-color: var(--thirt-color);
+        color: var(--primary-color);
+        width: 80px;
+        cursor: pointer;
+    }
+    
 }
 
-.bg_teal_200{
-    background-color: rgb(18, 248, 202);
-    width: 45%;
-    margin-top: 1rem;
-    padding: .4rem 0;
-    display: flex;
-    justify-content: space-between;
-}
 
-.bg_pink_foot{
-    background-color: rgb(249 168 212);
-    padding: .2rem;
-}
