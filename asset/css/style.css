@@ -15,41 +15,33 @@
     --font-primary: "Heebo", sans-serif;
 }
 
-.debug, *{
+.debug header{
     border: 1px dotted black;
-}
+} 
 
 /* #header */
+.d-flex{
+    display: flex;
+}
+
 .container_header{
-    background-color: #add8e6;
-    display: flex;
-    justify-content: center;
+    background-color: var(--bg-header);
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+    ul{
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        color: var(--text-primary-color);
+    }
+    .login_header>button{
+        border: 1px solid transparent;
+        border-radius: .8rem;
+        padding: .4rem;
+    }
 }
 
-.header_bg{
-    background-color: rgb(250 204 21);
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin: 1rem 0;
-    padding: .2rem;
-   
-}
-
-.content_logo{
-    flex-grow: 2;
-    text-align: start;
-}
-
-.content_list{
-    flex-grow: 4;
-    text-align: center;
-}
-
-.content_login{
-    flex-grow: 2;
-    text-align: end;
-}
 
 /* #main */
 .content{
