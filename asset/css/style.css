@@ -12,6 +12,8 @@
     --bg-footer: #23272a;
     --primary-color: #fff;
     --secondary-color: #3e4144;
+    --technology-btn: #8EA1E1;
+    --h4-h5: #748BDE;
 
     --font-primary: "Heebo", sans-serif;
 }
@@ -28,7 +30,7 @@
 }
 
 .my-px{
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .img_size_full{
@@ -149,11 +151,67 @@
     font-size: 1.7rem;
     font-weight: 800;
     width: 200px;
+    color: var(--secondary-color);
 }
 
 .connect_text{
     width: 290px;
 }
+
+.technology_discord{
+    flex-direction: column;
+}
+
+.technology_content{
+    text-align: center;
+}
+
+.technology_title{
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.technology_text{
+    width: 800px;
+    color: var(--secondary-color);
+}
+
+.technology_subtitle{
+    background-image: url("../image/stars.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.btn_tech{
+    width: 150px;
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: .5rem;
+    background-color: var(--technology-btn);
+    color: var(--primary-color);
+}
+
+li{
+    list-style: none;
+}
+
+.logo_ita{
+    width: 18px;
+}
+
+h4, h5{
+    color: var(--h4-h5);
+}
+
+.talk-to-us{
+    background-color: var(--bg-footer);
+}
+
+
+
 
 
 
