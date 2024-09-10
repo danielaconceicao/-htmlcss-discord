@@ -152,7 +152,7 @@
     flex-direction: column;
     background-color: var(--bg-main);
     margin-bottom: 0;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
 }
 /* fifth section main content(title and text) */
 .technology_content{
@@ -160,7 +160,6 @@
     .technology_title{
         width: 100%;
         text-align: center;
-       
     }
     .technology_text{
         width: 600px;
@@ -252,5 +251,4 @@ li{
     }
     
 }
-
 
