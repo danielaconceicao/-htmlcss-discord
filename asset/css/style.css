@@ -166,11 +166,21 @@
         color: var(--secondary-color);
     }
 }
-/* fifth section main content background star */
+/* fifth section main image stars */
+.technology_btn_content>img{
+    width: 24%;
+    position: absolute;
+    left: 45rem;
+    top: 327%;
+    padding-top: 2rem;
+}
+
 .technology_subtitle{
-    background-image: url("../image/stars.svg");
-    background-repeat: no-repeat;
-    background-position: top center;
+    position: relative;
+}
+
+.technology_image{
+    margin-bottom: 3rem;
 }
 /* fifth section main button*/
 .btn_technology{
@@ -251,4 +261,6 @@ li{
     }
     
 }
+
+
 
