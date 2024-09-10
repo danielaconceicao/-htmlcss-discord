@@ -171,8 +171,7 @@
     width: 24%;
     position: absolute;
     left: 45rem;
-    top: 327%;
-    padding-top: 2rem;
+    top: 199rem; 
 }
 
 .technology_subtitle{
@@ -260,6 +259,17 @@ li{
         cursor: pointer;
     }
     
+}
+
+.curved{
+    width: 100%;
+    display: block;
+}
+
+.curved-bottom{
+    width: 100%;
+    display: block;
+    transform: rotate(180deg);
 }
 
 
